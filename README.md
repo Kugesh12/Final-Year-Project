@@ -36,6 +36,39 @@ The project focuses on detecting abuse of legitimate Windows utilities such as P
 
 ## Project Structure
 
+MITRE ATT&CK Techniques
+Technique ID	Description
+T1059.001	PowerShell
+T1105	Ingress Tool Transfer
+T1218	System Binary Proxy Execution
+Objectives
+
+The main objective of this project is to:
+
+Understand Living off the Land attack techniques
+Improve detection engineering skills
+Practice threat detection using Sysmon logs
+Simulate SOC analyst workflows
+Map malicious behavior to MITRE ATT&CK
+Learning Outcomes
+
+Through this project, I learned:
+
+How attackers abuse legitimate system tools
+How to detect suspicious command-line behavior
+How to analyze Windows Sysmon events
+How detection rules are implemented in Python
+The importance of threat intelligence mapping
+Future Improvements
+Add real-time log monitoring
+Integrate with SIEM platforms
+Add more Living off the Land detection rules
+Improve alert visualization dashboard
+Export alerts to external systems
+Author
+
+GitHub: Kugesh12
+
 ```text
 LotL_Sentinel/
 │
@@ -53,3 +86,5 @@ LotL_Sentinel/
 ├── alerts.json
 ├── requirements.txt
 └── README.md
+
+
